@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Main Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
+    <style> 
         /* General Reset */
         * {
             margin: 0;
@@ -14,60 +14,67 @@
         }
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(to bottom, #6a1b9a, #d32f2f);
-            color: #fff;
+            background-color: #f4f4f9;
+            color: #333;
             line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+        }
+        /* Container Styling */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
             padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            font-size: 3rem;
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
             margin-bottom: 20px;
+            background: linear-gradient(135deg, #6a1b9a, #d32f2f);
+            padding: 20px;
+            border-radius: 8px;
         }
         p {
-            font-size: 1.2rem;
-            margin-bottom: 40px;
-            color: #f0e9f9;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #555;
         }
-        .buttons {
+        .nav-links {
             display: flex;
-            gap: 20px;
             flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
         }
-        .buttons a {
+        .nav-links a {
             text-decoration: none;
-            color: #fff;
-            background: #6a1b9a;
-            padding: 15px 30px;
+            color: white;
+            background-color: #6a1b9a;
+            padding: 10px 20px;
             border-radius: 5px;
-            font-size: 1.2rem;
-            font-weight: 600;
-            transition: background 0.3s ease;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
         }
-        .buttons a:hover {
-            background: #d32f2f;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9rem;
-            color: #f0e9f9;
+        .nav-links a:hover {
+            background-color: #d32f2f;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>Your one-stop solution for managing projects and portfolios.</p>
-    <div class="buttons">
-        <a href="portfolio.html">Portfolio</a>
-        <a href="index.html">View Project Details</a>
+    <div class="container">
+        <h1>Local Vendor Management System</h1>
+        <p>Select a module to manage your business efficiently:</p>
+        <div class="nav-links">
+            <a href="Vendor Management.html">Vendor Management</a>
+            <a href="Product Management.html">Product Management</a>
+            <a href="Customer Management.html">Customer Management</a>
+            <a href="Order Management.html">Order Management</a>
+            <a href="Review Management.html">Review Management</a>
+            <a href="Efficiency Delivery and Time Management.html">Efficiency Delivery and Time Management</a>
+        </div>
     </div>
-    <footer>
-        &copy; 2025 My Portfolio | All Rights Reserved
-    </footer>
 </body>
-</html>
+</html> 

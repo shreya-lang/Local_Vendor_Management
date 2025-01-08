@@ -17,22 +17,30 @@
             background-color: #007BFF;
             padding: 10px 20px;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
         nav a:hover {
             background-color: #0056b3;
         }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Main Page</h1>
+    <header>
+        <h1>Welcome to the Main Page</h1>
+    </header>
     <nav>
-        <a href="Vendor Management.html">Vendor Management</a>
-        <a href="Product Management.html">Product Management</a>
-        <a href="Customer Management.html">Customer Management</a>
-        <a href="Order Management.html">Order Management</a>
-        <a href="Review Management.html">Review Mangement</a>
-         <a href="Efficiency Delivery and Time  Management.html">Efficiency Delivery and Time  Management</a>
-
+        <a href="Vendor_Management.html">Vendor Management</a>
+        <a href="Product_Management.html">Product Management</a>
+        <a href="Customer_Management.html">Customer Management</a>
+        <a href="Order_Management.html">Order Management</a>
+        <a href="Review_Management.html">Review Management</a>
+        <a href="Efficiency_Delivery_and_Time_Management.html">Efficiency Delivery and Time Management</a>
     </nav>
 </body>
 </html>
